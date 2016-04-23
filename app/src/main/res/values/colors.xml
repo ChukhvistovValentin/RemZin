@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#ffffff</color>
+    <!--FF4081-->
+
+    <color name="priority_low">#692d41</color>
+    <color name="priority_low_selected">#3f7eae</color>
+    <color name="priority_normal">#ffffff</color>
+    <color name="priority_normal_selected">#e4d4d9</color>
+    <color name="priority_high">#c1a3ad</color>
+    <color name="priority_high_selected">#bc8c9c</color>
+
+
+    <color name="gray_200">#cce1ff69</color>
+    <color name="gray_50">#6bff82</color>
+
+    <color name="backgrount_task">#7bc2c2c2</color>
+    <color name="tab_normal">#7bc2c2c2</color>
+    <color name="tab_select">#ffffff</color>
+
+    <!-- цвет cardView -->
+    <color name="task_overdue">#8e9ae1</color> <!-- 2f63dfd1-->
+    <color name="task_today">#6bff6d</color>
+    <color name="task_tomorrow">#fa8dfa</color>
+    <color name="task_future">#fdec51</color>
+    <!-- цвет текста заголовка -->
+    <color name="title_overdue">#000000</color>
+    <color name="title_today">#ffffff</color>
+    <color name="title_tomorrow">#ffffff</color>
+    <color name="title_future">#000000</color>
+    <!-- цвет даты -->
+    <color name="date_overdue">#000000</color>
+    <color name="date_today">#ffffff</color>
+    <color name="date_tomorrow">#ffffff</color>
+    <color name="date_future">#000000</color>
+
+
+</resources>

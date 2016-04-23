@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:key="categ1"
+        android:summary="Description of category 1"
+        android:title="@string/pref_title_vibrate">
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="key_vibrate"
+            android:summary="@string/pref_display_vibrate_text"
+            android:title="@string/pref_title_vibrate" />
+
+        <PreferenceScreen
+            android:dependency="key_vibrate"
+            android:key="account_settings"
+            android:summary="@string/pref_title_vibrate_listen_choose"
+            android:title="@string/pref_title_vibrate_choose">
+            <com.megatron.remzin.preferences.Preference_Vibrate android:layout="@layout/preference_vibrate_button" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="categ2"
+        android:summary="@string/pref_display_ringtone_text"
+        android:title="@string/pref_title_ringtone">
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="key_rington"
+            android:summary="@string/pref_display_ringtone_text"
+            android:title="@string/pref_title_ringtone" />
+        <PreferenceScreen
+            android:dependency="key_rington"
+            android:key="test_rington"
+            android:summary="@string/pref_title_ringtone_listen_choose"
+            android:title="@string/pref_title_ringtone_choose">
+            <com.megatron.remzin.preferences.Preference_Rington android:layout="@layout/preference_rington_button" />
+        </PreferenceScreen>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="categ3"
+        android:summary="@string/pref_display_ringtone_text"
+        android:title="@string/pref_title_notification">
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="notifi_length"
+            android:summary="@string/pref_long_or_short_notification"
+            android:title="@string/pref_long_notification" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
+

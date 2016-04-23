@@ -1,0 +1,64 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--<style name="AppTheme" parent="android:Theme.Holo.Light.NoActionBar">-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <!--<item name="popupMenuStyle">@style/AppTheme.PopupMenuStyle</item>-->
+    </style>
+
+    <!--<style name="PreferencesTheme" parent="android:Theme.Light">-->
+    <style name="PreferencesTheme" parent="AppTheme">
+        <item name="android:windowBackground">@color/colorPrimary</item>
+        <!--<item name="android:textColor">@color/colorAccent</item>-->
+
+        <!--<item name="android:textColorSecondary">@color/tab_normal</item>-->
+    </style>
+
+
+    parent="@android:style/Theme.Light.NoTitleBar">
+    <style name="NotifiActivity.LightDialog" parent="AppTheme">
+    <item name="android:windowFrame">@null</item>
+    <item name="android:windowTitleStyle">@android:style/Theme.NoTitleBar</item>
+    <item name="android:windowIsFloating">true</item>
+    <item name="android:windowContentOverlay">@null</item>
+    <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+    <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+
+    <!--<item name="android:windowBackground">@drawable/dialog_background</item>-->
+    <!--<item name="android:checkboxStyle">@style/xxx.Light.CheckBox</item>-->
+    <!--<item name="android:radioButtonStyle">@style/xxx.Light.RadioButton</item>-->
+    <!--<item name="android:buttonStyle">@style/xxx.Light.Button.Gray</item>-->
+    <!--<item name="android:textViewStyle">@style/xxx.Light.Label</item>-->
+    <!--<item name="android:editTextStyle">@style/xxx.Light.EditText</item>-->
+    <!--<item name="android:listViewStyle">@style/xxx.Light.ListView</item>-->
+    <!--<item name="android:spinnerStyle">@style/xxx.Light.Dropdown</item>-->
+    </style>
+
+    <!--<style name="AppThemePopupMenuStyle" parent="android:Widget.Holo.Light.ListPopupWindow">-->
+    <style name="AppTheme.PopupMenuStyle" parent="@android:style/Widget.PopupMenu">
+    <!-- Blue background color & black bottom border @drawable/blue_action_bar_background-->
+    <item name="android:popupBackground">@color/colorPrimary</item>
+    <!--<item name="android:popupLayout">@layout/action_layout_settings</item>-->
+    <!--<item name="android:popupElevation">0dp</item>-->
+    </style>
+
+
+    <style name="spinner_style">
+        <item name="android:background">@drawable/spinner_ab_focused_holo_light</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:paddingLeft">6dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:popupBackground">#DFFFFFFF</item>
+    </style>
+
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ringtone_array">
+        <item>Ringtone 1</item>
+        <item>Ringtone 2</item>
+        <item>Ringtone 3</item>
+        <item>Ringtone 4</item>
+        <item>Ringtone 5</item>
+        <item>Ringtone 6</item>
+        <item>Ringtone 7</item>
+        <item>Ringtone 8</item>
+        <item>Ringtone 9</item>
+        <item>Ringtone 10</item>
+        <item>Ringtone 11</item>
+        <item>Ringtone 12</item>
+        <item>Ringtone 13</item>
+        <item>Ringtone 14</item>
+        <item>Ringtone 15</item>
+        <item>Ringtone 16</item>
+    </string-array>
+
+</resources>
